@@ -1,0 +1,122 @@
+* {
+margin: 0;
+padding: 0;
+outline: none;
+}
+body{
+line-height: 1.35em;
+background:url('../img/brillantpattern.png');
+}
+
+#wrapper{
+width:960px;
+margin-left: auto;
+margin-right: auto;
+float: none;
+}
+/*_______________________ HEADER ____________________ */
+#header{
+float: left;
+}
+
+#homeReturn{
+border-bottom:10px solid #AA2D48;
+
+width: 340px;
+float: left;
+margin-right:18px;
+}
+
+#navHolder{
+float: left;
+height: 50px;
+}
+
+#nav li{
+float: left;
+padding-top:4px ;
+}
+
+#nav{
+margin-left: 260px;
+}
+
+
+.navWork{
+background-color:#AA2D48;
+padding:6px 18px;
+-moz-border-radius: 1px;
+border-radius: 1px;
+}
+
+.navPers{
+background-color:#EBBB4C;
+padding:6px 18px;
+-moz-border-radius: 1px;
+border-radius: 1px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+
+.navCont{
+background-color:#937EBF;
+padding:6px 18px;
+-moz-border-radius:1px;
+border-radius:1px;
+}
+
+.bott{
+padding-bottom: 12px;
+
+border-bottom: 12px solid #AA2D48;
+}
+
+/*_______________________ CONTENT TOP ____________________ */
+/*_______________________ CONTENT BOTTOM _________________ */
+/*_______________________ FOOTER  _________________ */
+
+#footTop{
+border-top:5px solid #AFAEAE;
+opacity:.5;
+}
+/*_______________________ FONTS __________________ */
+
+@font-face{
+font-family:openSansSemi;
+src: url("../fonts/OpenSans-Semibold.ttf");
+}
+
+@font-face{
+font-family:openSansBld;
+src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+.nameFnt{
+font: bold 18px Arial;
+color: black;
+}
+
+.navFnt{
+font:bold 16px helvetica;
+color: #282828;
+}
+
+.introducFnt{
+font:24px openSansSemi;
+color:#282828;
+}
+
+.footFnt{
+font: 14px openSansSemi;
+color: black;
+letter-spacing: 1px;
+}
+/*_______________________ GENERALY USED ITEMS __________________ */
+.anc{
+text-decoration:none;
+}
+
+.txtInd{
+margin-left:10px;
+}
