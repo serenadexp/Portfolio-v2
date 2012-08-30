@@ -68,14 +68,143 @@ border-radius:1px;
 
 .bott{
 padding-bottom: 12px;
-
 border-bottom: 12px solid #AA2D48;
 }
 
-/*_______________________ CONTENT TOP ____________________ */
-/*_______________________ CONTENT BOTTOM _________________ */
-/*_______________________ FOOTER  _________________ */
+.navPers:hover{
+color: ;
+}
 
+.navCont:hover{
+color: ;
+}
+
+
+/*_______________________ CONTENT INTRO ____________________ */
+#contentIntro{
+width:330px;
+margin-top: 20px;
+border-right:10px solid #AA2D48;
+min-height:318px; 
+float: left;
+}
+
+#contentIntro p{
+margin-top: 70px;
+}
+
+/*_______________________ CONTENT SLIDER _________________ */
+
+#contentSlider{
+float: left;
+background-color: black;
+width: 600px;
+min-height:318px;
+margin-top: 20px;
+margin-left: 20px;
+}
+
+/*_______________________ CONTENT PROJECT INFO ____________________ */
+#contentProjectInfo{
+/* border:1px solid black; */
+float: left;
+width: 340px;
+min-height: 430px;
+margin-top: 70px;
+margin-bottom: 70px;
+}
+
+#trans{
+background-color: black;
+filter:alpha(opacity=10);
+-moz-opacity: 0.1;
+opacity: 0.1;
+width:inherit;
+min-height: inherit;
+position:absolute;
+z-index:-9;
+}
+
+#contentProjectName{
+margin-top: 10px;
+}
+
+#contentProjectInfoHead{
+margin-top: 25px;
+}
+
+#contentProjectInfoDetail{
+margin-top: 5px;
+}
+
+#contentProjectTechno{
+margin-top: 25px;
+}
+
+#contentTechDetail{
+margin-top: 5px;
+}
+
+#techLogos li{
+float: left;
+margin-left: 35px;
+margin-right: 25px;
+margin-top: 5px;
+}
+
+#contentMoreDetail{
+float: right;
+margin-right: 10px;
+margin-top: 15px;
+}
+
+
+.detailAnc:hover{
+text-decoration: underline;
+}
+
+/*_______________________ CONTENT PROJECTS ____________________ */
+
+#contentProjects{
+float: left;
+margin-left:20px;
+margin-top: 70px;
+}
+
+#contentProjectRight{
+float: left;
+margin-right:20px;
+}
+
+#contentProjectRight p{
+margin-top: 20px;
+margin-bottom:20px;
+}
+#contentProjectLeft p{
+margin-top: 20px;
+margin-bottom:20px;
+}
+#contentProjectLeft{
+float: left;
+}
+
+.contentsProjectBorder{
+border-bottom:10px solid #AA2D48;
+}
+
+.contentsProjectBorderLight{
+border-bottom:10px solid #AFC6F9;
+}
+
+.imgBorder{
+border: 1px solid #EDEDED;
+}
+
+/*_______________________ FOOTER  _________________ */
+#footer{
+clear: both;
+
+}
 #footTop{
 border-top:5px solid #AFAEAE;
 opacity:.5;
@@ -94,7 +223,7 @@ src: url("../fonts/OpenSans-Bold.ttf");
 
 .nameFnt{
 font: bold 18px Arial;
-color: black;
+color: #282828;
 }
 
 .navFnt{
@@ -105,11 +234,29 @@ color: #282828;
 .introducFnt{
 font:24px openSansSemi;
 color:#282828;
+width:310px;
+}
+
+.contentInfoHeadFnt{
+font: bold 21px Arial;
+color: black;
+letter-spacing: 2px;
+}
+
+.contentInfoFnt{
+font: 21px Arial;
+letter-spacing: 2px;
+width: 290px;
+}
+
+.contentProjectsFnt{
+font: 21px openSansBld;
+letter-spacing: 2px;
 }
 
 .footFnt{
 font: 14px openSansSemi;
-color: black;
+color: #282828;
 letter-spacing: 1px;
 }
 /*_______________________ GENERALY USED ITEMS __________________ */
@@ -119,4 +266,12 @@ text-decoration:none;
 
 .txtInd{
 margin-left:10px;
+}
+
+.txtIndAgain{
+margin-left:20px;
+}
+
+.imgBlock{
+display: block;
 }
