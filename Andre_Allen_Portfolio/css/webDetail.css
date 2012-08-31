@@ -80,8 +80,8 @@ color: ;
 }
 
 
-/*_______________________ CONTENT INTRO ____________________ */
-#contentIntro{
+/*_______________________ PROJECT NAME ____________________ */
+#projectName{
 width:330px;
 margin-top: 20px;
 border-right:10px solid #AA2D48;
@@ -89,124 +89,73 @@ min-height:318px;
 float: left;
 }
 
-#contentIntro p{
-margin-top: 70px;
+#finalScreens{
+width: 240px;
+margin-left: 60px;
+}
+#finalScreens ul li{
+float: left;
+margin-top: 20px;
 }
 
-/*_______________________ CONTENT SLIDER _________________ */
+#finalScreens ul li:nth-child(even){
+margin-left:20px;
+}
 
-#contentSlider{
+/*_______________________ PROJECT DETAILS _________________ */
+
+#projectDetails{
 float: left;
 width: 580px;
-height:308px;
-border-top:5px solid #CECECE;
-border-bottom:5px solid #CECECE;
+height:315px;
+border: 1px solid black;
 margin-top: 20px;
 margin-left: 20px;
 }
 
-/*_______________________ CONTENT PROJECT INFO ____________________ */
-#contentProjectInfo{
+#projectDetails p:nth-child(odd){
+margin-top:10px ;
+}
+#projectDetails p:nth-child(even){
+margin-top:10px ;
+}
+
+/*_______________________ TECHNOLOGY USED ____________________ */
+#technologyUsed{
 /* border:1px solid black; */
 float: left;
 clear: both;
-width: 340px;
+width: 330px;
 min-height: 430px;
 margin-top: 70px;
 margin-bottom: 70px;
+border-right:10px solid #AA2D48;
+
 }
 
-#trans{
-background-color: black;
-filter:alpha(opacity=10);
--moz-opacity: 0.1;
-opacity: 0.1;
-width:inherit;
-min-height: inherit;
-position:absolute;
-z-index:-9;
-}
+/*_______________________ PRODUCTION SCREENS ____________________ */
 
-#contentProjectName{
-margin-top: 10px;
-}
-
-#contentProjectInfoHead{
-margin-top: 25px;
-}
-
-#contentProjectInfoDetail{
-margin-top: 5px;
-}
-
-#contentProjectTechno{
-margin-top: 25px;
-}
-
-#contentTechDetail{
-margin-top: 5px;
-}
-
-#techLogos li{
-float: left;
-margin-left: 35px;
-margin-right: 25px;
-margin-top: 5px;
-}
-
-#contentMoreDetail{
-float: right;
-margin-right: 10px;
-margin-top: 15px;
-}
-
-
-.detailAnc:hover{
-text-decoration: underline;
-}
-
-/*_______________________ CONTENT PROJECTS ____________________ */
-
-#contentProjects{
+#productionScreens{
 float: left;
 margin-left:20px;
 margin-top: 70px;
+width: 580px;
+height: 420px;
 }
 
-#contentProjectRight{
+#productionScrHolder ul li{
 float: left;
-margin-right:20px;
+margin-top: 30px;
 }
 
-#contentProjectRight p{
-padding-bottom:20px;
-padding-left: 10px;
-padding-top: 20px;
-/* background:url('../img/test.png'); */
+#productionScrHolder ul li:nth-child(odd){
+margin-left: 80px;
+margin-bottom:50px;
 }
-
-
-#contentProjectLeft p{
-margin-top: 20px;
-margin-bottom:20px;
+#productionScrHolder ul li:nth-child(even){
+margin-left: 140px;
+margin-bottom:50px;
 }
-#contentProjectLeft{
-float: left;
-}
-
-.contentsProjectBorder{
-border-bottom:10px solid #AA2D48;
-}
-
-.contentsProjectBorderLight{
-border-bottom:10px solid #AFC6F9;
-}
-
-.imgBorder{
-border: 1px solid #EDEDED;
-}
-
-
 
 /*_______________________ FOOTER  _________________ */
 #footer{
@@ -229,6 +178,11 @@ font-family:openSansBld;
 src: url("../fonts/OpenSans-Bold.ttf");
 }
 
+@font-face{
+font-family:nevisBld;
+src: url("../fonts/nevis.ttf");
+}
+
 .nameFnt{
 font: bold 18px Arial;
 color: #282828;
@@ -239,33 +193,27 @@ font:bold 16px helvetica;
 color: #282828;
 }
 
-.introducFnt{
-font:24px openSansSemi;
-color:#282828;
-width:310px;
-}
-
-.contentInfoHeadFnt{
-font: bold 21px Arial;
+.projectFnt{
+font: bold 32px arial;
 color: black;
-letter-spacing: 2px;
+letter-spacing: 1px;
 }
 
-.contentInfoDetailFnt{
-font:bold italic 21px Arial;
-color: #282828;
-}
-
-.contentInfoFnt{
-font: 21px Arial;
-letter-spacing: 2px;
-width: 290px;
-}
-
-.contentProjectsFnt{
-font: 21px openSansBld;
-letter-spacing: 2px;
+.threeCoresFnt{
+font: bold 18px helvetica;
 color: black;
+}
+
+.describeFnt{
+font: 14px helvetica;
+color: black;
+}
+
+.headDetailFnt{
+font: bold 22px openSansBld;
+color: black;
+letter-spacing: 1px;
+margin-bottom: 30px;
 }
 
 .footFnt{

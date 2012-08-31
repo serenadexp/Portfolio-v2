@@ -4,7 +4,10 @@
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>  
  		<link href='img/urlIcon.png' rel='icon' type='image/png'/>
  		<link rel="stylesheet" href="css/reset.css" type="text/css"/>
+ 		<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+		<script type="text/javascript" src="engine1/jquery.js"></script>
  		<link rel="stylesheet" href="css/web.css" type="text/css"/> 
+ 		
 </head>
 	<body>
 		<div id="wrapper">
@@ -25,7 +28,26 @@
 			
 			</div><!--closed contentIntro -->
 			<div id="contentSlider">
-			
+				<div id="wowslider-container1">
+					<div class="ws_images">
+						<ul>
+							<li><img src="img/exercise.jpg" alt="Exercise 7" title="Exercise 7" id="wows1_0"/></li>
+							<li><img src="img/afro.jpg" alt="Logos" title="Logos" id="wows1_1"/></li>
+							<li><img src="img/look.jpg" alt="Looker" title="Looker" id="wows1_2"/></li>
+							<li><img src="img/cas.jpg" alt="CAS" title="CAS" id="wows1_3"/></li>
+						</ul>
+					</div>
+				<div class="ws_bullets">
+				<div>
+				<a href="#" title="Exercise 7"><img src="data1/tooltips/13376148_p0.jpg" alt="Exercise 7"/>1</a>
+				<a href="#" title="Logos"><img src="data1/tooltips/13432337_p0.jpg" alt="Logos"/>2</a>
+				<a href="#" title="Looker"><img src="data1/tooltips/looker.jpg" alt="Looker"/>3</a>
+				<a href="#" title="CAS"><img src="data1/tooltips/132815901.jpg" alt="CAS"/>4</a>
+				</div>
+				</div>
+
+	<div class="ws_shadow"></div>
+	</div>
 			</div><!--closed contentSlider -->
 			<div id="contentProjectInfo">
 				<div id="trans"></div><!--closed trans -->
@@ -52,28 +74,36 @@
 					</ul>	
 				</div>	<!--closed contentTechDetail -->
 				<div id="contentMoreDetail">
-					<p><a rel="" class="anc contentInfoHeadFnt detailAnc" href="">More Details</a></p>
+					<p><a rel="" class="anc contentInfoDetailFnt detailAnc" href="">More Details</a></p>
 				</div><!-- closed contentMoreDetail -->
 			</div><!-- closed contentProjectInfo -->
 			<div id="contentProjects">
 				<div id="contentProjectRight">
 					<div id="firstContent" class="contentsProjectBorder">
-						<img class="imgBlock imgBorder" src="img/exban.jpg"/>
-						<p class="contentProjectsFnt txtInd"><span>Exercise 7</span></p>
+						<a href="" class="anc">
+							<img class="imgBlock imgBorder" src="img/exban.jpg"/>
+								<p class="contentProjectsFnt "><span>Exercise 7</span></p>
+						</a>
 					</div><!-- closed firstContent -->
 					<div id="secondContent" class="contentsProjectBorderLight">
-						<img class="imgBlock imgBorder" src="img/afroban.jpg"/>
-						<p class="contentProjectsFnt txtInd">Logos</p>
+						<a href="" class="anc">
+							<img class="imgBlock imgBorder" src="img/afroban.jpg"/>
+								<p class="contentProjectsFnt">Logos</p>
+						</a>	
 					</div>	<!-- closed secondContent -->
 				</div><!-- closed contentProjectRight -->
 				<div id="contentProjectLeft">
-						<div id="thirdContent" class="contentsProjectBorder">
-						<img class="imgBlock imgBorder" src="img/lookban.jpg"/>
-						<p class="contentProjectsFnt txtInd"><span>Looker</span></p>
+					<div id="thirdContent" class="contentsProjectBorder">
+						<a href="" class="anc">
+							<img class="imgBlock imgBorder" src="img/lookban.jpg"/>
+							<p class="contentProjectsFnt txtInd"><span>Looker</span></p>
+						</a>	
 					</div><!-- closed thirdContent -->
-					<div id="fourthContent" class="contentsProjectBorderLight">
-						<img class="imgBlock imgBorder" src="img/casban.jpg"/>
-						<p class="contentProjectsFnt txtInd">CAS</p>
+					<div id="fourthContent" class="contentsProjectBorder">
+						<a href="" class="anc">
+							<img class="imgBlock imgBorder" src="img/casban.jpg"/>
+								<p class="contentProjectsFnt txtInd">CAS</p>
+						</a>		
 					</div>	<!-- closed fourthContent -->
 				
 				</div>	
@@ -85,7 +115,8 @@
 					<p class="footFnt txtInd">Copyright &copy; Andre Allen 2012</p>
 			</div><!-- closed footer -->	
 		</div><!-- closed wrapper -->
-	
+	<script type="text/javascript" src="engine1/wowslider.js"></script>
+	<script type="text/javascript" src="engine1/script.js"></script>
 	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
 	<script type="text/javascript" src="js/jquery.lightbox_me.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
