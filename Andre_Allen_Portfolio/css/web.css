@@ -185,6 +185,17 @@ padding-top: 20px;
 /* background:url('../img/test.png'); */
 }
 
+.transTxt{
+background-color: black;
+filter:alpha(opacity=10);
+-moz-opacity: 0.1;
+opacity: 0.1;
+width:281px;
+height: 210px;
+position:absolute;
+
+z-index:-9;
+}
 
 #contentProjectLeft p{
 margin-top: 20px;
