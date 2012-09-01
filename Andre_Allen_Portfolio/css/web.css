@@ -14,6 +14,87 @@ margin-left: auto;
 margin-right: auto;
 float: none;
 }
+/*_______________________ CONTACT  _________________ */
+
+#contact{
+height:220px;
+background-color:#937EBF ;
+
+}
+
+#headContact{
+float: left;
+margin-left:230px;
+margin-right:20px;
+margin-top: 80px;
+}
+#titlesContact{
+float: left;
+width: 280px;
+margin-top: 50px;
+}
+
+#titlesContact input
+{
+margin-bottom: 10px;
+padding-left: 10px;
+}
+
+#messageContact{
+float: left;
+margin-top: 50px;
+margin-left: 20px;
+width: 300px;
+}
+
+#messageContact input{
+padding-bottom:90px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+border: 2px solid white;
+width: 280px;
+float: left;
+padding-left: 10px;
+padding-top: 5px;
+
+}
+
+#sendBtn{
+float: left;
+margin-left: 48px;
+margin-top: 10px;
+padding-left:85px;
+padding-bottom: 2px;
+padding-top: 4px;
+padding-right:85px;
+cursor: pointer;
+}
+
+
+
+.inputStyle{
+border: 2px solid white;
+width: 280px;
+height: 30px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+}
+
+.sendBtnStyle{
+border: 2px solid white;
+-moz-border-radius: 2px;
+border-radius: 2px;
+background-color: #AFC6F9;
+}
+.inputColor{
+background-color:#E8E8E8 ;
+}
+
+.inputColorHighLight{
+background-color:white ;
+}
+
+
 /*_______________________ HEADER ____________________ */
 #header{
 float: left;
@@ -283,6 +364,28 @@ color: black;
 font: 14px openSansSemi;
 color: #282828;
 letter-spacing: 1px;
+}
+
+.contactHeadFnt{
+font:bold 21px Myriad Pro;
+border-bottom:10px solid white;
+letter-spacing: 1px;
+}
+
+.inputFnt{
+font: 12px Myriad Pro;
+letter-spacing: 1px;
+color: #3A3A3A;
+}
+
+.inputFnt::-webkit-input-placeholder{
+color: #3A3A3A;
+}
+
+.sendBtnFnt{
+font: bold 22px Myriad Pro;
+letter-spacing: 1px;
+color: #3A3A3A;
 }
 /*_______________________ GENERALY USED ITEMS __________________ */
 .anc{

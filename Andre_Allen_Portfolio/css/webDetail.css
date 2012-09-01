@@ -23,35 +23,50 @@ background-color:#937EBF ;
 }
 
 #headContact{
-width:380px;
 float: left;
-margin-left:225px;
+margin-left:230px;
+margin-right:20px;
 margin-top: 80px;
 }
 #titlesContact{
-border: 1px solid red;
 float: left;
 width: 280px;
-margin-top: 40px;
+margin-top: 50px;
+}
+
+#titlesContact input
+{
+margin-bottom: 10px;
+padding-left: 10px;
 }
 
 #messageContact{
-border: 1px solid blue;
 float: left;
-margin-top: 40px;
+margin-top: 50px;
+margin-left: 20px;
+width: 300px;
 }
 
 #messageContact input{
-padding-bottom:100px;
-padding-top: 15px;
+padding-bottom:90px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+border: 2px solid white;
+width: 280px;
+float: left;
+padding-left: 10px;
+padding-top: 5px;
+
 }
 
 #sendBtn{
 float: left;
-padding-left:80px;
+margin-left: 48px;
+margin-top: 10px;
+padding-left:85px;
 padding-bottom: 2px;
 padding-top: 4px;
-padding-right:80px;
+padding-right:85px;
 cursor: pointer;
 }
 
@@ -311,7 +326,7 @@ letter-spacing: 1px;
 .contactHeadFnt{
 font:bold 21px Myriad Pro;
 border-bottom:10px solid white;
-letter-spacing: 2px;
+letter-spacing: 1px;
 }
 
 .inputFnt{
