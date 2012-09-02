@@ -136,6 +136,9 @@ background-color:#EBBB4C;
 padding:6px 18px;
 -moz-border-radius: 1px;
 border-radius: 1px;
+}
+
+#nav li:nth-child(even){
 margin-left: 20px;
 margin-right: 20px;
 }
@@ -151,9 +154,12 @@ border-radius:1px;
 .bott{
 padding-bottom: 12px;
 border-bottom: 12px solid #EBBB4C;
-
 }
 
+.bottContact{
+padding-bottom: 12px;
+border-bottom: 12px solid #937EBF;
+}
 .navPers:hover{
 color: ;
 }
@@ -170,6 +176,23 @@ margin-top: 20px;
 border-right:10px solid #EBBB4C;
 min-height:318px; 
 float: left;
+}
+
+#quoteHolder{
+margin-top: 20px;
+}
+.moveLoyalty{
+margin-left:10px; 
+}
+
+.moveHonesty{
+margin-left:70px; 
+}
+.moveRespect{
+margin-left:110px; 
+}
+.moveQuote{
+margin-left:300px; 
 }
 
 
